@@ -46,7 +46,6 @@ services:
       - EDGE=1
       - PUID=$PUID
       - PGID=$PGID
-      - TZ=Europe/Paris
       - PLEX_MEDIA_SERVER_USE_SYSLOG=true
 
   tautulli:
